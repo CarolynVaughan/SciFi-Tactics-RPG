@@ -81,7 +81,7 @@ namespace SciFiTacticsRPG
         }
 
         /// <summary>
-        /// 
+        /// Starts a new game from the beginning of the campaign
         /// </summary>
         public async void StartNewGame()
         {
@@ -103,7 +103,7 @@ namespace SciFiTacticsRPG
         }
 
         /// <summary>
-        /// 
+        /// Loads the entry from the campaign content list that's at the current index value
         /// </summary>
         public async Awaitable LoadCurrentCampaignEntryAsync()
         {
